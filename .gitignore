@@ -36,8 +36,16 @@ fp-info-cache
 *.xml
 *.csv
 
+# Production outputs
+**/production/
+**/fabrication/
+**/build/
+
+# Fabrication Toolkit
+**/fabrication-toolkit-options.json
+
 # Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
+**/*-backups/
 
 # Local project settings
 *.kicad_prl
