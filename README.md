@@ -1,16 +1,17 @@
 # esp32-dev-board
-KiCad project files and hardware design for a custom ESP32-S3 dev board. The repo tracks footprints and project sources while ignoring generated production/build outputs and fabrication artifacts.
+This repository contains the KiCad project files for a custom development board based on the ESP32-S3-WROOM module.
+
 
 <p align="center">
-  <img src="images/ESP32_Dev_Board_front.png" alt="ESP32 Dev Board Front" width="420">
+  <img src="images/ESP32_Dev_Board_front.png" alt="ESP32 Dev Board Front" width="640">
 </p>
 <p align="center">
-  <img src="images/ESP32_Dev_Board_back.png" alt="ESP32 Dev Board Back" width="420">
+  <img src="images/ESP32_Dev_Board_back.png" alt="ESP32 Dev Board Back" width="640">
 </p>
 
 ## Features
-- USB-C port for power and data
-- Header pins for GPIO breakout
+- USB-C port for power and data transfer
+- Header pins for GPIO and power breakout
 - Reset and boot buttons for easy flashing
 - ESP32-S3-WROOM-1N8R8 module as the core
 - Onboard LED indicator tied to 3.3V power rail
