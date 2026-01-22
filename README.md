@@ -61,7 +61,7 @@ const int USER_LED = 21;
 
 void setup() {
   // Initialize Serial
-  // Note: Since USB CDC is native, Serial.begin baud rate is ignored but kept for compatibility
+  // Native USB: Baud rate is ignored but kept for compatibility
   Serial.begin(115200);
   
   // Set LED pin as output
