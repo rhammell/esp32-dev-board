@@ -22,6 +22,15 @@ KiCad project files include the schematic and PCB designs which can be viewed an
 * **User IO:** Onboard programmable LED tied to **GPIO 21**.
 * **Manufacturing:** Complete BOM included with **LCSC part numbers** for simplified sourcing and assembly.
 
+## Changelog
+
+### v0.2
+- Replaced LD1117 with AP2114 3.3V regulator for more stable 3.3V power supply
+- Transitioned to higher voltage rated 0805 capacitors on power rails to minimize DC bias capacitance loss
+
+### v0.1
+- Initial release of the ESP32-S3-WROOM-1 development board.
+
 ## Arduino IDE Setup
 
 To program the **ESP32-S3 Dev Board**, follow these steps to configure your environment.
